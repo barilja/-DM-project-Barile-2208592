@@ -9,3 +9,4 @@ Dimensions datasets folder includes the final dimensions to be loaded into the P
 PostGres (PGAdmin) folder includes both create tables files and Olap queries for the analysis of the dw.
 Schemas folder includes both DFM and Star schema.
 PPTs folder that includes the final power point of the project.
+Some datasets are not included due to the large size (see git ignore for more info).
