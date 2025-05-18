@@ -1,0 +1,9 @@
+DFM notes:
+integrity constraint on track.releaseDate and title.releaseDate
+integrity constraint on BirthYear and DeathYear
+FullCoverage on every dimensional attributes
+Shared Hierarchy on Artist dimension
+Why no date dimension? No analysis needed on that aspect
+Multiple arcs on title and artist dimensions
+Optional attributes on artist and title dimensions
+Additivity of the measures

@@ -1,0 +1,19 @@
+First dataset about the top 1000 most played songs of all time on Spotify with the following attributes (csv format):
+track_name,artist,album,release_date,popularity,spotify_url,id,duration_min
+Example first dataset:
+Starboy,The Weeknd,Starboy,2016-11-25,90,https://open.spotify.com/track/7MXVkk9YMctZqd1Srtv4MB,7MXVkk9YMctZqd1Srtv4MB,3.840883333333333
+
+Second dataset about titles basic infos with the following attributes (tsv format):
+tconst	titleType	primaryTitle	originalTitle	isAdult	startYear	endYear	runtimeMinutes	genres 
+Example second dataset:
+tt14954666	tvSeries	The Idol	The Idol	0	2023	2023	276	Drama,Music
+
+Third dataset about titles' rating (to join with the second dataset) with the following attributes (tsv format):
+tconst	averageRating	numVotes
+Example third dataset:
+tt14954666	4.4	114165
+
+Fourth dataset about Actors and artists (to join with the first and the second datasets) with the following attributes (tsv format):
+nconst	primaryName	birthYear	deathYear	primaryProfession	knownForTitles
+Example fourth dataset:
+m1070597	The Weeknd	1990	\N	music_artist,actor,composer	tt14954666,tt1825683,tt2322441,tt5727208
